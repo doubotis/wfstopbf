@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",    // Utiliser le format de module ES
+        "moduleResolution": "node",
+        "target": "ESNext",    // Cible les fonctionnalités les plus récentes de JavaScript
+        "esModuleInterop": true,  // Pour interopérer entre CommonJS et ES Modules
+        "strict": true,        // Optionnel, pour une compilation TypeScript stricte
+        "skipLibCheck": true   // Pour éviter les erreurs liées aux types des dépendances
+    },
+    "include": ["src/**/*.ts", "src/types/**/*.d.ts"],   // Assurez-vous que votre répertoire source est inclus
+    "exclude": ["node_modules"]
+}
